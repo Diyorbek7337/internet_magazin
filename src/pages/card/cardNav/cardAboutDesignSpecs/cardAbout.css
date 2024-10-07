@@ -1,0 +1,107 @@
+.aboutProduct {
+    width: 100%;
+    background-color: #fff;
+}
+
+.aboutProduct-wrapper {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.inform-about {
+    background-color: #F5F7FF;
+    padding: 50px 0px 50px 230px;
+    width: 70%;
+}
+.inform-about h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.inform-about p:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0156FF;
+    margin-bottom: 10px;
+}
+
+.inform-about p:nth-child(3) {
+    color: #000;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+    margin-bottom: 35px;
+}
+.colors {
+    display: flex;
+    margin-bottom: 20px;
+}
+.black-radius {
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.black-radius.active {
+    border: 2.5px solid #0156FF;
+}
+.white-radius {
+    background-color: #EAE8EB;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.white-radius.active {
+    border: 2.5px solid #0156FF;
+}
+.inform-about h3 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+.inform-about {
+    width: 50%;
+}
+.image-about {
+    width: 30%;
+    display: flex;
+    /* padding-left: 50px; */
+}
+.cardComp {
+    width: 55%;
+    padding-top: 50px;
+}
+.cardComp1 {
+    width: 24%;
+    padding-top: 60px;
+}
+.cardComp2 {
+    padding-top: 180px;
+    width: 90%;
+}
+.cardComp3, .cardComp4, .cardComp5 {
+    width: 100%;
+    padding-top: 25px;
+}
+.inform-about h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 120px;
+    margin-left: -100px;
+}

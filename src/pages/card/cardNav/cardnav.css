@@ -1,0 +1,99 @@
+.CardNav {
+    width: 100%;
+    background-color: #fff;
+}
+.cardNav-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'Poppins';
+    padding: 40px 0 15px 0;
+    box-sizing: border-box;
+}
+.cardMenu {
+    display: flex;
+}
+.cardMenu h3 {
+    text-decoration: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.cardMenuAbout, .cardMenuDetail, .cardMenuSpecs {
+    color: #666666;
+}
+.cardMenuAbout.active, .cardMenuDetail.active, .cardMenuSpecs.active {
+    color: black;
+    text-decoration: 2px solid #0156FF;
+}
+.pays {
+    display: flex;
+
+}
+.pays p {
+    color: black;
+    margin-right: 10px;
+}
+.count span {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+.button-wrapper button {
+    padding: 5px;
+    color: #666666;
+    background-color: #F5F7FF;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.button-wrapper button:active {
+    color: black;
+}
+.button-wrapper button:nth-child(2) {
+    transform: rotate(-180deg);
+}
+.count {
+    display: flex;
+    transform: translateY(-14px);
+    left: 120px;
+    background-color: #F5F7FF;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.addtocard {
+    background-color: #0156FF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    transform: translateY(-13px);
+    margin-right: 10px;
+}
+.addtocard a{
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 21px !important;
+    text-decoration: none;
+    color: #fff;
+}
+.addtocard1 {
+    background-color: #FFB800;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    transform: translateY(-13px);
+}
+ 

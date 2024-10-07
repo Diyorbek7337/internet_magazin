@@ -1,0 +1,13 @@
+.imageBanner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.bannerImg {
+    width: 100%;
+}

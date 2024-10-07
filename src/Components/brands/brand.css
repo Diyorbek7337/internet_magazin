@@ -1,0 +1,78 @@
+.brand {
+    width: 100%;
+    margin-top: 30px;
+}
+.brand-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.highway-slider {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 135px; */
+  }
+  .highway-slider .highway-barrier {
+    overflow: hidden;
+    position: relative;
+  }
+  .highway-slider ul.highway-lane {
+    display: flex;
+    height: 100%;
+    background: #fff;
+  }
+  .highway-slider ul.highway-lane li.highway-car {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #infinite .highway-barrier ul.highway-lane {
+    width: calc(300px * 12);
+  }
+  #infinite .highway-barrier ul.highway-lane li.highway-car {
+    width: 300px;
+    padding: 0 25px;
+    animation: translateinfinite 20s linear infinite;
+  }
+  @keyframes translateinfinite {
+    100% {
+      transform: translateX(calc(-300px * 6));
+    }
+  }
+  @media (max-width: 992px) {
+    .highway-slider {
+      height: 100px;
+    }
+    #infinite .highway-barrier ul.highway-lane {
+      width: calc(250px * 24);
+    }
+    #infinite .highway-barrier ul.highway-lane li.highway-car {
+      width: 250px;
+    }
+    @keyframes translateinfinite {
+      100% {
+        transform: translateX(calc(-250px * 12));
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .highway-slider {
+      height: 50px;
+    }
+    #infinite .highway-barrier ul.highway-lane {
+      width: calc(200px * 24);
+    }
+    #infinite .highway-barrier ul.highway-lane li.highway-car {
+      width: 200px;
+    }
+    @keyframes translateinfinite {
+      100% {
+        transform: translateX(calc(-200px * 12));
+      }
+    }
+  }

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contactUs {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.contactUs-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.contactUs-wrapper h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+.contacts {
+    width: 70%;
+    box-sizing: border-box;
+}
+.contactInputs {
+    box-sizing: border-box;
+}
+.contacts p {
+    color: black;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.inputContacts {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.inputs {
+    width: 50%;
+    /* margin: 0 auto; */
+}
+#nameInput {
+    margin-right: 10px;
+}
+#fnameInput {
+    margin-left: 10px;
+}
+.inputs3 {
+    width: 49%;
+    
+}
+.inputs3 input {
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+.contactInputs {
+    display: flex;
+    /* justify-content:space-between; */
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.inputs input {
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    /* margin-right: 30px; */
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#textarea {
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    min-height: 150px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.buttons {
+    background: #0156FF;
+    border-radius: 50px;
+    display: block;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.address {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 30px 45px 0 30px;
+    background-color: #F5F7FF;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.address h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.addres {
+    margin-bottom: 15px;
+}
+
+.address p {
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 27px;
+}
+
+@media (max-width: 992px) {
+    .contactUs-wrapper {
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts {
+        width: 100%;
+    }
+    .address {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .contacts h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacts p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .contactInputs {
+        display: block;
+    }
+    #nameInput {
+        margin-right: 0;
+    }
+    #fnameInput {
+        margin-left:0;
+    }
+    .inputs {
+        width: 100%;
+    }
+    .inputs3 {
+        width: 100%;
+    }
+    .buttons {
+        width: 100%;
+    }
+}

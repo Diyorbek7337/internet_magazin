@@ -1,0 +1,345 @@
+.laptopMain {
+    width: 100%;
+    box-sizing: border-box;
+}
+.laptop-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: flex;
+}
+.filter-box {
+    margin-top: 30px;
+    width: 235px;
+}
+.filter-box button{
+    width: 100%;
+    background-color: #fff;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    cursor: pointer;
+}
+.brand-box {
+    text-align: center;
+    background: #F5F7FF;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.brand-box h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.filter-icon {
+    margin-left: 50%;
+    font-size: 16px;
+    display: none;
+}
+.brand-box button {
+    color: #A2A6B0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border: 2px solid #A2A6B0;
+    border-radius: 50px;
+    width: 90%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.brands-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.compare, .wish {
+    text-align: center;
+    background: #F5F7FF;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.compare h2, .wish h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.compare p, .wish p {
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+}
+.stul {
+    margin-top: 10px;
+}
+.product-container {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.product-item1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+.pro {
+    padding: 10px;
+    text-decoration: none;
+}
+.pro:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
+}
+.product-item1 p {
+    font-size: 10px;
+    color: #78A962;
+    text-decoration: none;
+}
+.products-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+.products1-box {
+    display: block;
+}
+.products1-box.display {
+    display: none;
+}
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.sort-wrapper {
+    display: flex;
+}
+.sort p, .sort-wrapper {
+    font-weight: 400;
+    font-size: 13px;
+    color: #A2A6B0;
+    line-height: 27px;
+}
+.sort-wrapper p{
+    border: 2px solid #CACDD8;
+    border-radius: 2px;
+    padding: 5px;
+}
+select {
+    width: 80px;
+
+}
+select, option {
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+}
+.sort-item {
+    margin-right: 5px;
+}
+.sort-item1 select{
+    width: 95px;
+}
+.fath {
+    color: #A2A6B0;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 7.5px;
+    cursor: pointer;
+}
+.fath.active {
+    color: #000;
+}
+.productsBoxAlign {
+    width: 100%;
+    display: none;
+    padding: 10px;
+}
+.productsBoxAlign.display {
+    display: block;
+}
+
+.product-item-box:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
+}
+.product-item-box {
+    margin-bottom: 10px;
+    padding: 30px 20px;
+}
+.alignLeft {
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 7.5px;
+    color: #A2A6B0;
+    cursor: pointer;
+}
+.alignLeft.active {
+    color: #000;
+}
+.image-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-box img:nth-child(1) {
+    width: 13rem;
+}
+.product-item-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information-laptop p {
+    color: #000;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+.information-laptop h4 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+.information-laptop span{
+    margin-right: 10px;
+}
+.laptop-features p{
+    display: flex;
+    color: #000;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 6px 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 150px;
+}
+.NA {
+    color: #666666;
+}
+.laptop-features p:nth-child(2) {
+    background-color: #F5F7FF;
+}
+.stock {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 220px;
+}
+.stock p {
+    font-weight: 400;
+    font-size: 10px;
+    color: #78A962;
+}
+.stock .message-item {
+    
+}
+.message-item span {
+    color: #A2A6B0;
+    border: 2px solid #A2A6B0;
+    border-radius: 50%;
+    padding: 4px 3px 1px 3px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+
+.addToCard {
+    font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #0156FF !important;
+border: 2px solid #0156FF;
+border-radius: 50px;
+width: 30%;
+text-align: center;
+padding: 5px 0;
+margin-top: 80px;
+}
+.filterMobile {
+    display: none;
+}
+
+ 
+.filter-container {
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 1200px) {
+    .product-item1 {
+        grid-template-columns: auto auto auto auto;
+    }
+    .product-box-container {
+        display: none;
+    }
+    .alignLeft {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .product-item1 {
+        grid-template-columns: auto auto auto;
+    }
+    .fath.active {
+        display: none;
+    }
+    
+}
+@media (max-width: 768px) {
+    .product-item1 {
+        grid-template-columns: auto auto;
+    }
+    .filterMobile.active {
+        display: block;
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    .filter-icon {
+        display: block;
+    }
+    .filter-box {
+        display: none;
+    }
+    .laptop-wrapper {
+        display: block;
+        margin: 0 auto;
+    }
+    .pro {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .product-item1 {
+        padding: 0;
+        margin: 0;
+    }
+    .product-item1 p {
+        width: 100%;
+    }
+    .sort {
+        width: 100%;
+    }
+    .sortP {
+        width: 300px !important;
+    }
+    .sort-item, .sort-item1 {
+        width: 150px;
+    }
+}

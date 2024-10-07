@@ -1,0 +1,62 @@
+.cardFeatures {
+    width: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #242528 0%, #040404 100%);
+}
+
+.cardFeatures-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.features-text {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.features-text p {
+    width: 32%;
+    margin: 0 auto;
+}
+
+.features-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.features-item p {
+    font-size: 14px;
+    line-height: 22px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.intel img {
+    width: 30%;
+    margin-bottom: 10px;
+}
+.rtx img{
+    width: 25%;
+    margin-bottom: 10px;
+}
+.ssd img {
+    width: 29%;
+    margin-bottom: 10px;
+}
+.dd4 {
+    transform: translateY(-10px);
+}
+.dd4 img{
+    width: 25%;
+    margin-bottom: 10px;
+}

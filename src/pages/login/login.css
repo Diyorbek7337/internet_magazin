@@ -1,0 +1,144 @@
+.login {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.login-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.login-wrapper h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.login-blocks {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login-item {
+    background: #F5F7FF;
+    padding: 40px;
+    margin-right: 20px;
+    width: 47%;
+    box-sizing: border-box;
+}
+
+.login-item h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.login-item p {
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+}
+.inputLogin {
+    margin-bottom: 20px;
+}
+.inputLogin input {
+    background: #FFFFFF;
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.submit a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0156FF;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.customer {
+    margin-bottom: 10px;
+}
+
+.benefit {
+    margin-bottom: 10px;
+}
+
+.ul {
+    margin-bottom: 10px;
+}
+
+.buttons1 {
+    background: #0156FF;
+    border-radius: 50px;
+    display: block;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+#login-item-right {
+    padding: 40px;
+    width: 47%;
+}
+@media (max-width:1200px) {
+    .submit {
+        display: block;
+    }
+    .submit button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 992px) {
+    .login-blocks {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        /* width: 0%; */
+        align-items: center;
+    }
+    .login-item {
+        margin-bottom: 20px;
+        width: 80% !important;
+    }
+}
+@media (max-width: 600px) {
+    .login-item {
+        width: 100% !important;
+    }
+    .buttons1 {
+        width: 100%;
+    }
+}
+@media (max-width: 414px) {
+    .login-blocks {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .login-item {
+        margin-right: 0;
+    }
+}
